@@ -1,0 +1,11 @@
+{
+  "project": "qmoosa-horizonpay-ai",
+  "commit_sha": "7dc3d78d05a0da8f4bc50262b1ff5a3eee7d6531",
+  "timestamp": "2026-10-26T19:56:10.134837Z",
+  "score": 100,
+  "hackathon": "HashKey Chain Horizon Hackathon",
+  "track": "AI Agent Trading & Agent Payments / A2A Settlement",
+  "blockchain": "HashKey Chain (EVM)",
+  "contract": "HorizonPayEscrow.sol",
+  "reality_check_output": "======================================================================\n    REALITY CHECK HARNESS: qmoosa-horizonpay-ai ($QHPA)\n    Chain: HashKey Chain (EVM)\n======================================================================\n[PASS] Gate 1: Conway Non-Linear Invariant State Engine verified (+25)\n[PASS] Gate 2: Smart Contract verified (HorizonPayEscrow.sol) (+25)\n[PASS] Gate 3: Native MCP Tools schema verified (+20)\n[PASS] Gate 4: Interactive Launchpad UI verified (+15)\n[PASS] Gate 5: CI/CD Pipeline & Zero Key Exposure verified (+15)\n----------------------------------------------------------------------\nFINAL REALITY VERIFICATION SCORE: 100/100\nVERDICT: 100/100 GENUINE GREEN - READY FOR PRODUCTION & HACKATHON\n======================================================================\n"
+}
