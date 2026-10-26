@@ -1,0 +1,45 @@
+{
+  "mcpServers": {
+    "qmoosa-horizonpay-ai": {
+      "tools": [
+        {
+          "name": "authorize_agent_payment",
+          "description": "Authorizes an autonomous A2A payment on HashKey Chain under x402 protocol",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "seller_agent": {
+                "type": "string"
+              },
+              "amount_usdt": {
+                "type": "number"
+              },
+              "purpose": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "seller_agent",
+              "amount_usdt"
+            ]
+          }
+        },
+        {
+          "name": "verify_hashkey_receipt",
+          "description": "Verifies cryptographic receipt and state confirmation on HashKey Chain",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "tx_hash": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "tx_hash"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
